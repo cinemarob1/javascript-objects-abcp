@@ -1,13 +1,4 @@
-var playlist = { 
-  rjd2: "A Portal Inward"
-};
+const firstMeal = 'breakfast';
+var meals = {[firstMeal]: 'oatmeal'};
 
-function updatePlaylist(playlist, artistName, songTitle){
-  playlist[artistName]=[songTitle];
-  return playlist;
-}
-
-function removeFromPlaylist(playlist, artistName){
-  delete playlist[artistName];
-  return playlist;
-}
+console.log(meals.breakfast);
